@@ -1,0 +1,154 @@
+body {
+    width: 50%;
+    /* met les carres ensemble */
+    display: flex;
+    /* oblige de mettre a la ligne */
+    flex-wrap: wrap;
+}
+
+.carre1 {
+    /* bordure du carre */
+    border: 2px solid;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    position: relative;
+}
+
+.rond1 {
+    background-color: rgb(54, 42, 165);
+    width: 180px;
+    height: 180px;
+    border-radius: 90%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* intensité de l image */
+    opacity: 0.5;
+}
+
+.rond2 {
+    background-color: rgb(54, 42, 165);
+    width: 180px;
+    height: 180px;
+    border-radius: 90%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+.rond3 {
+    background-color: rgb(54, 42, 165);
+    width: 180px;
+    height: 180px;
+    border-radius: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.rond4 {
+    background-color: rgb(54, 42, 165);
+    width: 180px;
+    height: 180px;
+    border-radius: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.carre2 {
+    border: 2px solid;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(64, 195, 66, 0.305);
+    position: relative;
+}
+
+.rond5 {
+    background-color: rgb(14, 206, 17, 0.374);
+    width: 180px;
+    height: 180px;
+    border-radius: 90%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 60px;
+    opacity: 0.7;
+}
+
+.rond6 {
+    background-color: rgba(14, 206, 17, 0.374);
+    width: 180px;
+    height: 180px;
+    border-radius: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
+.rond7 {
+    background-color: rgb(14, 206, 17, 0.374);
+    width: 180px;
+    height: 180px;
+    border-radius: 90%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+.carre3 {
+    border: 2px solid;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(195, 64, 178, 0.305);
+    position: relative;
+}
+
+.rond8 {
+    background-color: rgb(195, 64, 178, 0.305);
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
+.rond9 {
+    background-color: rgb(195, 64, 178, 0.305);
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.7;
+}
+
+.carre4 {
+    border: 2px solid;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(195, 119, 64, 0.305);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rond {
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    border-radius: 90%;
+    position: absolute;
+    justify-items: center;
+    opacity: 0.7;
+}

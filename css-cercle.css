@@ -1,0 +1,25 @@
+.carre {
+    width: 482px;
+    height: 460px;
+    background-color: rgb(138, 8, 127);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rond {
+    background-color: brown;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    justify-content: space-around;
+}
+
+.rond1 {
+    background-color:hsl(0, 0%, 90%); 
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    justify-content: space-around;
+}
